@@ -1,0 +1,4 @@
+com/mail/MailTriggerApplication.class
+com/mail/controller/MailController.class
+com/mail/service/MailService.class
+com/mail/dto/Mail.class
