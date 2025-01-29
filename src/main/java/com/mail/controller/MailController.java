@@ -17,7 +17,7 @@ import jakarta.mail.MessagingException;
 
 @RestController
 @RequestMapping("/api")
-@CrossOrigin(allowedHeaders = "*")
+@CrossOrigin(origins = "http://20.33.20.13:80/", allowedHeaders = "*")
 public class MailController {
 
 	private Map<String, String> response = new HashMap<>();
